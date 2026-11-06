@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="1_w"]
+
+[resource]
+script = ExtResource("1_w")
+id = "rusty_sword"
+display_name = "Rusty Sword"
+kind = "melee"
+ammo_type = ""
+slot = 1
+fire_interval = 0.34
+melee_reach = 62.0
+recoil = 0.0
+shake = 0.0
+color = Color(0.75, 0.6, 0.45, 1)
+fire_sound = "swing"

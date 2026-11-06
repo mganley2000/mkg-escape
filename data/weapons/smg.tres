@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="1_w"]
+
+[resource]
+script = ExtResource("1_w")
+id = "smg"
+display_name = "Submachine Gun"
+kind = "bullet"
+ammo_type = "bullets"
+slot = 5
+fire_interval = 0.085
+spread_deg = 3.0
+projectile_speed = 1600.0
+max_range = 800.0
+recoil = 1.5
+shake = 1.0
+color = Color(1, 0.9, 0.55, 1)
+start_ammo = 40
+fire_sound = "smg"
+fire_pitch = 1.08

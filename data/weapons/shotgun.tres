@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="1_w"]
+
+[resource]
+script = ExtResource("1_w")
+id = "shotgun"
+display_name = "Shotgun"
+kind = "bullet"
+ammo_type = "shells"
+slot = 4
+fire_interval = 0.85
+pellets = 6
+spread_deg = 7.0
+projectile_speed = 1300.0
+max_range = 440.0
+recoil = 6.0
+shake = 5.0
+color = Color(1, 0.75, 0.35, 1)
+start_ammo = 10
+fire_sound = "shotgun"

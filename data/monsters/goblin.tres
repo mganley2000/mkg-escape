@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1_m"]
+
+[resource]
+script = ExtResource("1_m")
+id = "goblin"
+display_name = "Goblin"
+sprite_key = "goblin"
+voice = "goblin"
+tint = "none"
+speed = 60.0
+chase_speed = 130.0
+damage = 9.0
+attack_range = 30.0
+detect_range = 360.0
+attack_cooldown = 1.0
+attack_hit_time = 0.37
+hit_half_width = 11.0
+body_height = 37.0

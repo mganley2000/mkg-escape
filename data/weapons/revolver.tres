@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="1_w"]
+
+[resource]
+script = ExtResource("1_w")
+id = "revolver"
+display_name = "Revolver"
+kind = "bullet"
+ammo_type = "bullets"
+slot = 2
+fire_interval = 0.42
+projectile_speed = 1500.0
+max_range = 950.0
+recoil = 3.0
+shake = 2.0
+color = Color(1, 0.85, 0.45, 1)
+start_ammo = 18
+fire_sound = "revolver"

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1_m"]
+
+[resource]
+script = ExtResource("1_m")
+id = "flying_eye"
+display_name = "Flying Eye"
+sprite_key = "flying_eye"
+voice = "eye"
+tint = "none"
+speed = 70.0
+chase_speed = 120.0
+damage = 11.0
+attack_range = 30.0
+detect_range = 420.0
+attack_cooldown = 1.1
+attack_hit_time = 0.4
+hover_height = 24.0
+hit_half_width = 13.0
+body_height = 30.0

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1_m"]
+
+[resource]
+script = ExtResource("1_m")
+id = "rotter_mushroom"
+display_name = "Rotting Shambler"
+sprite_key = "mushroom"
+voice = "rotter"
+tint = "rot"
+speed = 26.0
+chase_speed = 55.0
+damage = 7.0
+attack_range = 30.0
+detect_range = 260.0
+attack_cooldown = 1.5
+attack_hit_time = 0.5
+hit_half_width = 11.0
+body_height = 36.0

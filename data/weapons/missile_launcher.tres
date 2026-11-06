@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="1_w"]
+
+[resource]
+script = ExtResource("1_w")
+id = "missile_launcher"
+display_name = "Missile Launcher"
+kind = "rocket"
+ammo_type = "rockets"
+slot = 6
+fire_interval = 1.1
+projectile_speed = 420.0
+max_range = 1800.0
+splash_radius = 120.0
+recoil = 8.0
+shake = 3.0
+color = Color(1, 0.55, 0.2, 1)
+start_ammo = 4
+fire_sound = "rumble"
+fire_pitch = 1.6

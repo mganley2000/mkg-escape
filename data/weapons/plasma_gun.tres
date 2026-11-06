@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="1_w"]
+
+[resource]
+script = ExtResource("1_w")
+id = "plasma_gun"
+display_name = "Plasma Gun"
+kind = "plasma"
+ammo_type = "cells"
+slot = 7
+fire_interval = 0.2
+projectile_speed = 950.0
+max_range = 1100.0
+pierce = 3
+recoil = 2.0
+shake = 1.5
+color = Color(0.35, 0.9, 1, 1)
+start_ammo = 30
+fire_sound = "plasma"

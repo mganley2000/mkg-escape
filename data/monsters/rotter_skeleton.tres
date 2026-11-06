@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MonsterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/monster_data.gd" id="1_m"]
+
+[resource]
+script = ExtResource("1_m")
+id = "rotter_skeleton"
+display_name = "Rotting Corpse"
+sprite_key = "skeleton"
+voice = "rotter"
+tint = "rot"
+speed = 24.0
+chase_speed = 50.0
+damage = 9.0
+attack_range = 36.0
+detect_range = 280.0
+attack_cooldown = 1.6
+attack_hit_time = 0.43
+hit_half_width = 13.0
+body_height = 50.0
